@@ -1,0 +1,107 @@
+
+.slidingSlider {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .titleOfPage1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .titlePage1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .locIt {
+    font-size: 1.5rem;
+    color: #666;
+  }
+  
+  .slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .slide {
+    display: none;
+    width: 100%;
+    transition: opacity 0.5s ease-in-out;
+  }
+ 
+  
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .leftArrow,
+  .rightArrow {
+    position: absolute;
+    top: 50%;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 1;
+    color: #333;
+  }
+  
+  .leftArrow {
+    left: 10px;
+  }
+  
+  .rightArrow {
+    right: 10px;
+  }
+  
+  .infoPage1 {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .infoCom {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .key {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .yesIt {
+    flex: 1;
+  }
+  
+  .moreInfo {
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  .itenary {
+    margin-top: 20px;
+  }
+  
+  .moreInfoHeader {
+    text-align: center;
+  }
+  
+  .MountButton {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .MountButton:hover {
+    background-color: #2980b9;
+  }
+  

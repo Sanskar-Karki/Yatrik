@@ -1,0 +1,15 @@
+.gallery--img {
+   margin: 150px 100px;
+}
+
+.gallery--img img {
+    border-radius: 10px;
+}
+.gallery--tittle{
+    position: relative;
+    top: 80px;
+    text-align: center;
+    font-size: 3rem;
+    color: #5C8D89;
+    font-weight: lighter;
+}

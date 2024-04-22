@@ -1,0 +1,95 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    position: relative;
+    background-color: #f4f4f4;
+}
+
+.signup-content {
+    text-align: center;
+    max-width: 400px;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #5C8D89;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: 1px solid #5C8D89;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+button {
+    background-color: #5C8D89;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #caeff1;
+    text-decoration: none;
+}
+
+.social-signup {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.social-signup a {}
+
+.social-signup p {
+    font-size: 15px;
+    color: #666;
+}
+
+.login--btn a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 50px;
+    width: 100%;
+    color: white;
+}
+.login--btn:hover{
+    color: black;
+}
+.login--btn a:hover{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 50px;
+    width: 100%;
+    color: rgb(14, 0, 0);
+}
+.social-icons {
+    display: flex;
+}
+.login--butt:hover{
+    color: black;
+
+}
+.social-icons a {
+    position: relative;
+    color: #333;
+    font-size: 20px;
+    padding: 0px 15px;
+}

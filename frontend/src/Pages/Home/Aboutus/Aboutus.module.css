@@ -1,0 +1,58 @@
+.about--body{
+    background-color: rgb(220, 239, 232,0.4);
+    height: 75vh;
+    align-items: center;
+    border-radius: 15px;
+    display: grid;
+    margin: 200px 150px;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+}
+.about--img{
+    position: relative;
+    top: -50px;
+}
+.img--hilly{
+    height: 250px;
+    width: 200px;
+    border-radius: 15px;
+}
+.img--himal{
+    position: relative;
+    top: 100px;
+    left:10px;
+    height: 270px;
+    width: 200px;
+    border-radius: 15px;
+}
+.img--terai{
+    height: 160px;
+    width: 200px;
+    border-radius: 15px;
+}
+.about--txt{
+    position: relative;
+    top:-50px;
+}
+.about--txt h1{
+    color: gray;
+    font-weight: lighter;
+    font-size: 3rem;
+}
+.about--txt p{
+    text-align: justify;
+    font-size: 16px;
+}
+.about--txt button{
+    position: relative;
+    padding: 7px 15px;
+    color: white;
+    font-size: 15px;
+    background-color: #74B49B;
+    border-radius: 10px;
+    border: none;
+}
+.about--txt button:hover{
+    cursor: pointer;
+    background-color:#0a387e ;
+}

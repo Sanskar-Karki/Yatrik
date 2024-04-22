@@ -1,0 +1,112 @@
+.property1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  
+  .sortButtons {
+    display: flex;
+    gap: 1rem;
+    color: #0069d9;
+    border-radius: 50%;
+  }
+  
+  .sortButtons label {
+    color: #6497da;
+  }
+  
+  .sortButtons select {
+    color: #6497da;
+    border-radius: 20px;
+    padding: 0px 10px;
+  }
+  
+  .propertyTitle {
+    position: relative;
+    font-size: 2.5rem;
+    color: #1E5F8B;
+    margin: 40px 0px;
+  }
+  
+  .propertyList {
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    gap: 50px;
+    margin: 50px;
+    color: #004A7C;
+  }
+  
+  .props {
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 10%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .props:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+  
+  .props div {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .props img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  @media only screen and (max-width: 1300px) {
+    .propertyList {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .propertyList {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .Trekking {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+  }
+  
+  .Trekking button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Trekking button:hover {
+    background-color: #0B2447;
+  }
+  

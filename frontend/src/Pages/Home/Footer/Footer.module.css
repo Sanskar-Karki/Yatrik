@@ -1,0 +1,88 @@
+.footer-container {
+    background-color: #5C8D89;
+    padding: 40px;
+    display: flex;
+    color: #ffffff;
+    height: 33vh;
+}
+.Footer-title img{
+    height: 100px;
+    width: 100%;
+}
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.Footer-title {
+    margin-top: 30px;
+    margin-right: 70px;
+    margin-left: 50px;
+}
+.Footer-title a{
+    text-decoration: none;
+    color: white;
+}
+.Footer-title a:hover{
+    cursor: pointer;
+    color: #203546;
+}
+
+.Footer-title-title {
+    font-size: 3rem;
+    font-weight: lighter;
+    margin-right: 20px;
+}
+
+.foot div {
+    position: relative;
+    left: -70px;
+}
+
+.social-media {
+
+    position: relative;
+    left: -100px;
+}
+
+.social-media div {
+    position: relative;
+    left: -75px;
+
+}
+.social-item a{
+    padding: 3px;
+}
+
+.foot h3{
+    padding-left: 80px ;
+}
+.info-item,
+.social-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.social-item icon{
+    color: black;
+}
+.icon {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #345a79;
+}
+
+.icon:hover {
+    color: #7cb19c;
+}
+.legal{
+    position: relative;
+    padding-top:50px;
+    left: -70px;
+}
+.social-media h3{
+    padding-left: 25px ;
+}

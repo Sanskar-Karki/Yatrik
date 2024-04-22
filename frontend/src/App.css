@@ -1,0 +1,12 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+:root {
+    --primary: #5C8D89;
+    --heading: #7CB3AE;
+    --background:#F1F9F6;
+}

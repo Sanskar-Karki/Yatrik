@@ -1,0 +1,39 @@
+.info--container{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: rgb(150, 150, 150);
+    text-align: justify;
+}
+.info--container h4{
+    color: black;
+    font-size: 1.2rem;
+}
+.mus--info h3{
+    font-size: 1.2rem;
+    color: black;
+}
+.mus--des{
+    font-size: 18px;
+}
+.mus--des p h4{
+text-align: center;
+margin: 40px;
+font-size: 2rem;
+}
+.guide--suggestion{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 50px;
+    justify-content: center;
+}
+.guide--suggestion button{
+    color: white;
+    text-decoration: none;
+}
+.guide--btn{
+    padding: 10px 20px;
+    border-radius: 30px;
+}

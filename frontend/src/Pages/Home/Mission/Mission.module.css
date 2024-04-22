@@ -1,0 +1,44 @@
+.mission--body{
+    justify-items: center;
+    margin: 100px 150px;
+}
+.mission--body p{
+    font-size: 50px;
+    color: gray;
+}
+.body--div{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    text-align: justify;
+}
+.body--left{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+.body--left h1{
+    font-size: 150px;
+    color: gray;
+}
+.body--left p{
+    font-size: 16px;
+    padding: 20px;
+    color: black;
+}
+.body--right{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+.body--right h1{
+    font-size: 150px;
+    color: gray;
+}
+.body--right p{
+    font-size: 16px;
+    padding: 20px;
+    color: black;
+}    

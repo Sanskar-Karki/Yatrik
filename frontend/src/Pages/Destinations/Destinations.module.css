@@ -1,0 +1,36 @@
+.destination--options {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 100px;
+    height: 60vh;
+    align-items: center;
+    border-radius: 25px;
+    padding: 20px 50px;
+}
+
+.destination--options h1 {
+    color: rgb(43, 112, 89);
+    font-size: 29px;
+}
+
+.destination--options a {
+    padding: 40px;
+    height: 80%;
+    width: 500px;
+    border-bottom: 5px solid #4C8871;
+    border-top: 5px solid #4C8871;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.destination--options p {
+    text-align: justify;
+    color: black;
+    font-size: 15px;
+}
+
+.destination--options a:hover {
+    background-color: rgba(219, 255, 247, 0.336);
+    box-shadow: 10px 10px 10px white;
+}
